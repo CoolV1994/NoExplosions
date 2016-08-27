@@ -1,0 +1,5 @@
+name: ${name}
+main: ${groupId}.${artifactId}.Plugin
+version: ${version}
+description: ${description}
+author: CoolV1994

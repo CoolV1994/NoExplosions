@@ -1,0 +1,14 @@
+# NoExplosion Configuration
+#
+# Entity List
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+#
+# Entity types to disable
+blockedEntities:
+- PRIMED_TNT
+- CREEPER
+- FIREBALL
+- SMALL_FIREBALL
+- DRAGON_FIREBALL
+- MINECART_TNT
+- ENDER_CRYSTAL
