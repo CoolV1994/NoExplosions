@@ -3,3 +3,16 @@ main: ${groupId}.${artifactId}.Plugin
 version: ${version}
 description: ${description}
 author: CoolV1994
+commands:
+  noexplosions:
+    aliases: [noexp]
+    description: NoExplosions command
+    usage: /<command> (reload)
+permissions:
+    noexplosions.*:
+        description: Gives all NoExplosions permissions
+        default: op
+        children:
+            noexplosions.reload: true
+    noexplosions.reload:
+        description: Permission to reload plugin configuration

@@ -1,8 +1,5 @@
 # NoExplosion Configuration
 #
-# Entity List
-# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
-#
 # Entity types to disable
 blockedEntities:
 - PRIMED_TNT
@@ -12,3 +9,39 @@ blockedEntities:
 - DRAGON_FIREBALL
 - MINECART_TNT
 - ENDER_CRYSTAL
+#
+# Ignition causes to disable
+blockedIgniters:
+- SPREAD
+#- FLINT_AND_STEEL
+- LAVA
+- LIGHTNING
+- FIREBALL
+#
+# Stop blocks from being destroyed by fire?
+blockFireDestrucion: true
+#
+# Materials to diable flowing
+blockedLiquidFlow:
+- WATER
+- STATIONARY_WATER
+- LAVA
+- STATIONARY_LAVA
+- AIR
+#
+# Portal creation reasons to disable
+blockedPortals:
+- FIRE
+- OBC_DESTINATION
+#
+# Entity List
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+#
+# Ignition Cause List
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/block/BlockIgniteEvent.IgniteCause.html
+#
+# Material List
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+#
+# Portal Creation Reasons
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/world/PortalCreateEvent.CreateReason.html
